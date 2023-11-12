@@ -1,3 +1,21 @@
+# DeepMET Note
+
+**This branch is for Run2 data using 10_6_X**. Please use the following branches for Run3:
+
+- [12_6_0](https://github.com/DeepMETv2/PFNano/tree/12_6_0): Produces NanoAODv11 (made in 12_6_X) using MiniAODv3 (made in 12_4_X)
+
+- [13_0_7_from124MiniAOD](https://github.com/DeepMETv2/PFNano/tree/13_0_7_from124MiniAOD): Produces NanoAODv12-like data (reruns Puppiv17 on 13_0_X) using MiniAODv3 (12_4_X). 
+
+13_0_X produces different puppi jet weights, which is relevant for PF candidates.
+
+[NanoAODv11](https://gitlab.cern.ch/cms-nanoAOD/nanoaod-doc/-/wikis/Releases/NanoAODv11) is the recommended version for Run3Summer22/Run3Summer22EE. [NanoAODv12](https://gitlab.cern.ch/cms-nanoAOD/nanoaod-doc/-/wikis/Releases/NanoAODv12) is the recommended version for Run3. Find the most up-to-date info [here](https://gitlab.cern.ch/cms-nanoAOD/nanoaod-doc).
+
+PFNano full branch list from cms-jet can be found [here](https://github.com/cms-jet/PFNano/branches).
+
+Original README below.
+
+---
+
 # PFNano
 
 This is a [NanoAOD](https://twiki.cern.ch/twiki/bin/view/CMSPublic/WorkBookNanoAOD) framework for advanced developments of jet algorithms. 
